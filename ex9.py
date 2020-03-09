@@ -1,0 +1,26 @@
+#Aidan Bauer 1/31/20
+from turtle import *
+penup()
+forward(-200)
+pendown()
+def pyramid():
+    color("blue", "black")
+    begin_fill()
+    forward(100)
+    left(120)
+    color("green")
+    forward(100)
+    left(120)
+    color("red")
+    forward(100)
+    left(120)
+    end_fill()
+    penup()
+    forward(100)
+    pendown()
+
+pyramid()
+pyramid()
+pyramid()
+pyramid()
+turtle.getscreen()._root.mainloop() 
